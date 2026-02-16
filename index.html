@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tee | Mobile Legends Top-Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Tee</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#topup">Top-Up</a>
+    <a href="#support">Support</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>Instant Mobile Legends Top-Up</h1>
+  <p>Fast • Secure • Trusted</p>
+  <a href="#topup" class="btn">Top Up Now</a>
+</section>
+
+<section id="topup" class="topup">
+  <h2>Top-Up Diamonds</h2>
+
+  <div class="form-group">
+    <input type="text" id="playerId" placeholder="Player ID">
+    <input type="text" id="serverId" placeholder="Server ID">
+  </div>
+
+  <div class="packages">
+    <div class="card" onclick="selectPackage(86, 120)">86 Diamonds</div>
+    <div class="card" onclick="selectPackage(172, 230)">172 Diamonds</div>
+    <div class="card" onclick="selectPackage(257, 340)">257 Diamonds</div>
+    <div class="card" onclick="selectPackage(514, 670)">514 Diamonds</div>
+  </div>
+
+  <div class="summary">
+    <p>Selected: <span id="selectedPackage">None</span></p>
+    <p>Price: ₹<span id="price">0</span></p>
+  </div>
+
+  <button class="btn" onclick="checkout()">Continue to Payment</button>
+</section>
+
+<section id="support" class="support">
+  <h2>Need Help?</h2>
+  <p>Contact Tee Support</p>
+  <a href="#" class="btn whatsapp">WhatsApp Support</a>
+</section>
+
+<footer>
+  <p>© 2026 Tee Top-Up. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
