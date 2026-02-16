@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #151a30, #05070f);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #6c5ce7, #00f2ff);
+  box-shadow: 0 0 20px #00f2ff;
+}
+
+header h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* Main card */
+.container {
+  max-width: 420px;
+  margin: 40px auto;
+  background: #0f1429;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(108,92,231,0.4);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input, select {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  background: #151a30;
+  border: 1px solid #6c5ce7;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  background: linear-gradient(90deg, #6c5ce7, #00f2ff);
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 0 20px #00f2ff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #00f2ff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  opacity: 0.7;
+}
